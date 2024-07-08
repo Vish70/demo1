@@ -1,3 +1,7 @@
+
+@media (max-width:768px) {
+  
+
 * {
   margin: 0;
   padding: 0;
@@ -209,4 +213,6 @@ textarea::placeholder{
     color:rgb(66, 66, 66);
     font-weight: 450;
     letter-spacing:.5px;
+}
+
 }
