@@ -123,11 +123,18 @@
         <script>
 
             var chatInput = document.querySelector('textarea');
-            // var inputfield = document.querySelector('.inputfield ');
+            var inputfield = document.querySelector('.inputfield ');
                 chatInput.addEventListener('keyup',e =>{
-                chatInput.style.height = "100%";
+                chatInput.style.height = "50px";
+                inputfield.style.height = "50px";
+                // chatInput.style.top = "0px";
+
                 var inputheight = e.target.scrollHeight;
                 chatInput.style.height = `${inputheight}px`;
+                inputfield.style.height = `${inputheight}px`;
+                // chatInput.style.top = "0px";
+                
+
                 // inputfield.style.height = '70px';
             //   if(chatInput.style.height === "25px"){
             //     chatbox.style.marginBottom = "65px";

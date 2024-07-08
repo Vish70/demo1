@@ -155,29 +155,32 @@ margin-bottom:92.5px;
   justify-content: center;
   margin: 0.2rem auto 0.1rem auto;
   left: 0;
-  right: 0;
-  height:65px;
-  max-height:65px;
+  right: 0; 
+  height:50px;
+  max-height:70px;
+  /*
+  max-height:65px; */
   overflow: hidden;
 }
 .inputfield i {
   font-size: 1.9rem;
 }
 .inputfield textarea {
-  width:86%;
+  width:90%;
   margin: auto;
-  padding: 0.2rem;
+  padding:.9rem 0;
   background-color: transparent;
   outline: none;
   border: none;
-  height:100%;
-  max-height:65px;
+  height:50px;
+  max-height:70px;
   resize: none;
   word-wrap: break-word;
   overflow: auto;
-  font-size:1.1rem;
+  font-size:1rem;
   left: 0;
-  position: absolute;
+  top: 0;
+  position:absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -187,6 +190,7 @@ margin-bottom:92.5px;
   padding:.3rem;
   position: absolute;
   right: 0;
+  bottom:0;
 }
 
 .inputfield i{
@@ -203,5 +207,5 @@ position: relative;
 textarea::placeholder{
     color:rgb(66, 66, 66);
     font-weight: 450;
-    letter-spacing:1px;
+    letter-spacing:.5px;
 }
