@@ -29,8 +29,8 @@
   top: 0;
   width:100%;
   z-index: 3;
-  /* background-color:#ffffff6c; */
-  background: #a0a0a015;
+  background-color:#ffffff6c;
+  /* background: #a0a0a015; */
   backdrop-filter:blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
@@ -91,7 +91,7 @@ section {
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  margin: 110px 0px 0px 0px;
+  margin: 110px auto auto auto;
   padding-bottom:65px;
 }
 /* .para.mbottom_{
@@ -142,7 +142,7 @@ margin-bottom:92.5px;
   display: flex;
   border:2px solid  var(--greenbordercolor);
   background-color: rgb(230, 230, 230);
-  width: 99%;
+  width:98%;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -168,7 +168,7 @@ margin-bottom:92.5px;
 .inputfield textarea {
   width:90%;
   margin: auto;
-  padding:.9rem 0;
+  padding:.9rem .7rem;
   background-color: transparent;
   outline: none;
   border: none;
