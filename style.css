@@ -91,7 +91,8 @@ section {
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  margin: 110px 0px 65px 0px;
+  margin: 110px 0px 0px 0px;
+  padding-bottom:65px;
 }
 /* .para.mbottom_{
 margin-bottom:92.5px;
@@ -155,26 +156,37 @@ margin-bottom:92.5px;
   margin: 0.2rem auto 0.1rem auto;
   left: 0;
   right: 0;
+  height:65px;
+  max-height:65px;
+  overflow: hidden;
 }
 .inputfield i {
-  font-size: 1.2rem;
+  font-size: 1.9rem;
 }
 .inputfield textarea {
-  width:95%;
+  width:86%;
   margin: auto;
   padding: 0.2rem;
   background-color: transparent;
   outline: none;
   border: none;
-  height:25px;
-  max-height:60px;
+  height:100%;
+  max-height:65px;
   resize: none;
   word-wrap: break-word;
   overflow: auto;
+  font-size:1.1rem;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .send_i{
   padding:.3rem;
+  position: absolute;
+  right: 0;
 }
 
 .inputfield i{
