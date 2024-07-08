@@ -33,10 +33,10 @@
   top: 0;
   width:100%;
   z-index: 3;
-  background-color:#ffffff;
+  background-color:#ffffff6c;
   /* background: #a0a0a015; */
-  /* backdrop-filter:blur(10px);
-  -webkit-backdrop-filter: blur(10px); */
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 nav {
