@@ -39,8 +39,8 @@ nav {
   width: 100%;
   height: 30px;
   background-color: var(--bluebgcolor);
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 button {
