@@ -37,10 +37,11 @@
 
 nav {
   width: 100%;
-  height: 36px;
+  height:10px;
   background-color: var(--bluebgcolor);
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
 }
 button {
   cursor: pointer;
